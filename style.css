@@ -1,0 +1,191 @@
+body {
+    font-family: 'Tiro Bangla', serif;
+    margin: 25px;
+
+
+}
+
+h1 {
+    font-family: 'Tiro Bangla', serif;
+    font-style: italic;
+}
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.banner-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.banner-image {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.banner-text h1 {
+    margin: 0;
+    font-size: 100px;
+}
+
+.banner-text h2 {
+    margin: 0;
+    color: #007BFF;
+    font-size: 50px;
+}
+
+.banner-text button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    height: auto;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+.banner-text button:hover {
+    background-color: #0056b3;
+    font-size: 30px;
+}
+
+.banner-text button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Tiro Bangla', serif;
+}
+
+.about {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.about_logo {
+    width: auto; 
+    height: 200px;
+}
+
+.about h2 {
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.about p {
+    color: #6c757d;
+    font-size: 20px;
+}
+
+
+
+/* Contact */
+
+.contact {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+}
+
+.contact h2 {
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+    display: block;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 400px;
+}
+
+.contact input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer p {
+    margin: 0;
+    color: #6c757d;
+    font-size: large;
+}
