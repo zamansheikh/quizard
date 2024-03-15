@@ -25,7 +25,7 @@
             <img src="Assets/logo.png" alt="Quizart Logo" class="logo">
             <ul class="nav-list">
                 <li><a href="/index.html">হোম</a></li>
-                <li><a href="quiz.html">কুইজ</a></li>
+                <li><a href="#quiz">কুইজ</a></li>
                 <li><a href="#about">আমাদের সম্পর্কে</a></li>
                 <li><a href="#contact">যোগাযোগ</a></li>
             </ul>
@@ -40,6 +40,7 @@
                 <br>
                 <br>
                 <button><a>কুইজ এ অংশগ্রহণ করুন</a> </button>
+               
             </div>
             <div class="banner-image">
                 <img src="Assets/quiz_banner.jpg" alt="Banner">
@@ -73,6 +74,7 @@
                 বিজ্ঞান ও প্রযুক্তি ইত্যাদি । আমরা আমাদের কুইজ এপ এ বিভিন্ন বিষয়ে কুইজ আয়োজন করি, যেমন বাংলা ভাষা, বাংলা
                 সাহিত্য, বাংলা সংস্কৃতি, বাংলা ইতিহাস, বাংলা বিজ্ঞান ও প্রযুক্তি ইত্যাদি ।
             </p>
+            
             <!-- Some Empty Space  -->
             <br>
             <br>
@@ -95,10 +97,24 @@
         </div>
 
 
-        
+        <!-- Quiz Section -->
+        <div class="quiz" id="quiz">
+            <h2>কুইজ খেলুন</h2>
+            <p>আপনি কোন বিষয়ে কুইজ খেলতে চান? নিচের বাটনে ক্লিক করুন এবং আপনার পছন্দের বিষয় নির্বাচন করুন ।</p>
 
-        
+            <!-- Quiz Category Buttons -->
+            <div class="quiz-categories">
+                <button id="bangla-basha-btn"><a href="#">বাংলা ভাষা</a></button>
+                <button id="bangla-sahitya-btn"><a href="#">বাংলা সাহিত্য</a></button>
+                <button id="bangla-sanskriti-btn"><a href="#">বাংলা সংস্কৃতি</a></button>
+                <!-- Add more buttons for other categories -->
+            </div>
 
+             <!-- Questions will be displayed here -->
+             <div id="questions-container"></div>
+
+
+        </div>
 
 
 
@@ -128,6 +144,8 @@
         </div>
 
 
+        <!-- JavaScript Section  -->
+        <script src="quiz.js"></script> <!-- Link to your JavaScript file -->
 
 </body>
 
